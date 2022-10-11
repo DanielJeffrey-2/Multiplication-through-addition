@@ -1,0 +1,15 @@
+#Created by:Daniel Jeffrey 
+#Created on: Oct 10, 2022
+#This program calculates a product using loops and addition, without multiplication.
+
+x = int(input('Input first digit:'))
+y = int(input('Input second digit:'))
+
+a = 0 
+
+while y > 0:      
+  a += x
+  y -= 1
+
+print('The product is:')
+print(a)
